@@ -1,0 +1,36 @@
+Faizan Haider
+0907460
+
+Test Reading from file
+----------------------
+The program can read any input from a file (given that is it is in proper format i.e. in the assignment pdf). This was verified by using assert to verify that all elements in ArrayList<Reference> matched what was read from file.
+Program can handle any amount of information and still make a valid Reference. 
+
+Program returns error when information is neither information related to book or journal.
+
+
+Writing from file
+-----------------
+Program writes to whatever file is in command line.
+
+
+Adding from GUI
+---------------
+If all text fields are filled out, the program can create a Book/Journal from it and add it to Reference ArrayList and to HashMap.
+If some areas are blank, GUI will determine whether that field is important or not and either ask you to fill it out or continues if not mandatory.
+
+
+Search from GUI
+---------------
+Search feature does not work because it does not read the textfields from the new card, only the original one. That said, HashMap works the way it should.  
+
+
+Reset from GUI
+--------------
+Program can reset from Add menu item but not Search menu item because GUI does not read new card.
+
+
+Examples
+--------
+If in debugger mode, run the program and go to the Add card. Fill call number, title, year, organization/publisher, and/or author(s), then press Add, the program will add that Reference to Reference array and HashMap which can be verifed in debugger mode.
+
